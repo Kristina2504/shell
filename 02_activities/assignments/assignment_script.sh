@@ -60,7 +60,7 @@ rm *ipaddr*
 # 8. Create a file named ./data/inventory.txt that lists all the files in the subfolders of ./data/processed
 cd ../..
 touch inventory.txt 
-ls ./processed > inventory.txt
+ls ./processed/user_logs/ ./processed/event_logs/ ./processed/server_logs/ > inventory.txt
 
 
 ###########################################
